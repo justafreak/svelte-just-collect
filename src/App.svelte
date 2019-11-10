@@ -1,11 +1,14 @@
 <script>
-	export let name;
+  import Overview from "./views/pages/Overview.svelte";
+
+  export let name;
 </script>
 
 <style>
-	h1 {
-		color: purple;
-	}
+  h1 {
+    color: purple;
+  }
 </style>
 
-<h1>Hello {name}!</h1>
+<h1>{name}</h1>
+<Overview />
